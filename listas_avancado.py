@@ -15,12 +15,27 @@
 # for i, nome in enumerate(lista1):
 #     print(f"{i}: {nome}")
 
-# Função map
-def dobro(x):
-    return x * 2
+
+# # Função map
+# def dobro(x):
+#     return x * 2
 
 
-valores = [1, 2, 3, 4, 5]
-valoresDobrados = map(dobro, valores)
-valoresDobrados = list(valoresDobrados)
-print(valoresDobrados)
+# valores = [1, 2, 3, 4, 5]
+# valoresDobrados = map(dobro, valores)
+# valoresDobrados = list(valoresDobrados)
+# print(valoresDobrados)
+
+
+# Função reduce
+from functools import reduce
+
+
+def soma(x, y):
+    return x + y
+
+
+lista = [1, 3, 5, 10, 20]
+
+soma = reduce(soma, lista)
+print(soma)

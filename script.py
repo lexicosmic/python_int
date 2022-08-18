@@ -23,13 +23,21 @@
 # print(textual)
 # print(booleana)
 
-# Operadores relacionais
-var_a = 4
-var_b = 4
-print(var_a == var_b)
-var_a = 2
-var_b = 3
-print(var_a == var_b)
-print(var_a < var_b)
-soma = var_a+var_b
-print(soma < var_a)
+# # Operadores relacionais
+# var_x = 4
+# var_y = 4
+# print(var_x == var_y)
+# var_x = 2
+# var_y = 3
+# print(var_x == var_y)
+# print(var_x < var_y)
+# soma = var_x + var_y
+# print(soma < var_x)
+
+# Operadores lógicos
+var_x = 3
+var_y = 3
+var_z = 4
+print(var_x == var_y and var_x == var_z)
+print(var_x == var_y or var_x == var_z)
+print(var_x == var_y or var_x == var_z and var_z == var_y)

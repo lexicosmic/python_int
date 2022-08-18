@@ -27,15 +27,25 @@
 # print(valoresDobrados)
 
 
-# Função reduce
-from functools import reduce
+# # Função reduce
+# from functools import reduce
 
 
-def soma(x, y):
-    return x + y
+# def soma(x, y):
+#     return x + y
 
 
-lista = [1, 3, 5, 10, 20]
+# lista = [1, 3, 5, 10, 20]
 
-soma = reduce(soma, lista)
-print(soma)
+# soma = reduce(soma, lista)
+# print(soma)
+
+
+# Função zip
+lista1 = [1, 2, 3, 4, 5]
+lista2 = ["abacate", "bola", "cachorro", "dinheiro", "elefante"]
+lista3 = ["R$2,00", "R$5,00", "Não tem preço",
+          "Não tem preço", "Não tem preço"]
+
+for numero, nome, preco in zip(lista1, lista2, lista3):
+    print(f"{numero}: {nome} - {preco}")

@@ -61,28 +61,60 @@
 # else:
 #     print("X é igual a Y")
 
-# Estruturas de repetição
-var_x = 1
-while var_x < 10:
-    print(var_x, end=" ")
-    var_x += 1
+# # Estruturas de repetição
+# var_x = 1
+# while var_x < 10:
+#     print(var_x, end=" ")
+#     var_x += 1
 
-lista1 = [1, 2, 3, 4, 5]
-lista2 = ["Olá", "Mundo", "!"]
-lista3 = [0, "Olá", "biscoito", 9.87, True]
+# lista1 = [1, 2, 3, 4, 5]
+# lista2 = ["Olá", "Mundo", "!"]
+# lista3 = [0, "Olá", "biscoito", 9.87, True]
 
-for elem in lista1:
-    print(elem, end=" ")
-print()
+# for elem in lista1:
+#     print(elem, end=" ")
+# print()
 
-for elem in lista2:
-    print(elem, end=" ")
-print()
+# for elem in lista2:
+#     print(elem, end=" ")
+# print()
 
-for elem in lista3:
-    print(elem, end=" ")
-print()
+# for elem in lista3:
+#     print(elem, end=" ")
+# print()
 
-for i in range(10, 20, 2):
-    print(i, end=" ")
-print()
+# for i in range(10, 20, 2):
+#     print(i, end=" ")
+# print()
+
+# Strings
+str1 = "Ana"
+str2 = "Mary"
+concatenar = str1 + " " + str2
+print(concatenar)
+
+tamanho = (concatenar)
+print(tamanho)
+
+print(str1[2])
+# print(str1[3])
+print(concatenar[4:])
+
+print(concatenar.lower())
+print(concatenar.upper())
+
+concatenar = concatenar.upper()
+print(concatenar)
+
+concatenar = concatenar + "\n"
+print(concatenar)
+print(concatenar.strip())
+
+lista = concatenar.split(" ")
+print(lista)
+
+busca = concatenar.find("MARY")
+print(concatenar[busca:])
+
+concatenar = concatenar.replace("\n", " B")
+print(concatenar)

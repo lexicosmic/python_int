@@ -87,34 +87,47 @@
 #     print(i, end=" ")
 # print()
 
-# Strings
-str1 = "Ana"
-str2 = "Mary"
-concatenar = str1 + " " + str2
-print(concatenar)
+# # Strings
+# str1 = "Ana"
+# str2 = "Mary"
+# concatenar = str1 + " " + str2
+# print(concatenar)
 
-tamanho = (concatenar)
-print(tamanho)
+# tamanho = (concatenar)
+# print(tamanho)
 
-print(str1[2])
-# print(str1[3])
-print(concatenar[4:])
+# print(str1[2])
+# # print(str1[3])
+# print(concatenar[4:])
 
-print(concatenar.lower())
-print(concatenar.upper())
+# print(concatenar.lower())
+# print(concatenar.upper())
 
-concatenar = concatenar.upper()
-print(concatenar)
+# concatenar = concatenar.upper()
+# print(concatenar)
 
-concatenar = concatenar + "\n"
-print(concatenar)
-print(concatenar.strip())
+# concatenar = concatenar + "\n"
+# print(concatenar)
+# print(concatenar.strip())
 
-lista = concatenar.split(" ")
-print(lista)
+# lista = concatenar.split(" ")
+# print(lista)
 
-busca = concatenar.find("MARY")
-print(concatenar[busca:])
+# busca = concatenar.find("MARY")
+# print(concatenar[busca:])
 
-concatenar = concatenar.replace("\n", " B")
-print(concatenar)
+# concatenar = concatenar.replace("\n", " B")
+# print(concatenar)
+
+# Funções
+def soma(x, y):
+    return x + y
+
+
+def multiplicacao(x, y):
+    return x * y
+
+
+soma_res = soma(3, 4)
+mult_res = multiplicacao(3, 4)
+print(soma(soma_res, mult_res))
